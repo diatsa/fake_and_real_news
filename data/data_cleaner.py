@@ -82,14 +82,18 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"\nTraining set size: {len(X_train)} samples")
 print(f"Testing set size: {len(X_test)} samples")
 
+# Save the split datasets to CSV files
+# This allows you to use the same train/test split consistently
+print("\nSaving split datasets...")
+train_df = pd.concat([X_train, y_train], axis=1)
+test_df = pd.concat([X_test, y_test], axis=1)
+
+train_df.to_csv('train_data.csv', index=False)
+test_df.to_csv('test_data.csv', index=False)
+print("Saved train_data.csv and test_data.csv")
+
 # Verify class distribution in both sets
 print("\nTraining set class distribution:")
 print(y_train.value_counts())
 print("\nTesting set class distribution:")
 print(y_test.value_counts())
-
-# Save the full merged dataset
-merged_df.to_csv('merged_news_data.csv', index=False)
-print("Saved merged_news_data.csv")
-
-print("\nData preparation complete")
