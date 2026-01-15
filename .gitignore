@@ -1,0 +1,4 @@
+# Ignore files
+pickled-crawl300d2m-for-kernel-competitions/crawl-300d-2M.pkl
+pickled-glove840b300d-for-10sec-loading/glove.840B.300d.pkl
+.DS_Store
