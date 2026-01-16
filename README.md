@@ -40,7 +40,7 @@ Test on a different dataset (not on Kaggle) by extracting data through webscrapi
 * Be flexible
 * Familiarize yourself with Scikit learn and the theory behind NLP first
 
-# Dataset
+### Dataset
 80% for training
 10% for validation
 10% for testing
