@@ -44,3 +44,9 @@ Test on a different dataset (not on Kaggle) by extracting data through webscrapi
 80% for training
 10% for validation
 10% for testing
+
+### Test Set Prediction Statistics
+Accuracy: 0.955234
+Precision: 0.954953
+Recall: 0.955518
+F1 Score: 0.955170
