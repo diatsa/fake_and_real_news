@@ -9,13 +9,13 @@ https://www.kaggle.com/code/gunesevitan/nlp-with-disaster-tweets-eda-cleaning-an
 In 2026, fake news has become rampant; from AI generated propaganda to misinformation spread on social media. It becomes increasingly important to have tools that can distinguish between real news and fake news. This is the basis of our project. We aim to develop a machine learning model to predict whether a news title and blurb are fake or real, using a Kaggle dataset. 
 
 ### Milestones:
-Load the Data 
-Explore the dataset
-Preprocess the data
-Load a BERT model
-Train the model, fine-tuning BERT
-Generate submission
-Create presentation
+1. Load the Data 
+1. Explore the dataset
+1. Preprocess the data
+1. Load a BERT model
+1. Train the model, fine-tuning BERT
+1. Generate submission
+1. Create presentation
 
 ### Technologies Used
 * Pytorch
